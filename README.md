@@ -86,11 +86,12 @@ Search for appropriate case classifications using display name patterns:
 ```
 
 **Query Format Examples:**
+
 - `"displayName:*Billing*"` - Find billing-related classifications
-- `"displayName:*Compute*"` - Find Compute Engine classifications  
+- `"displayName:*Compute*"` - Find Compute Engine classifications
 - `"displayName:*Storage*"` - Find storage-related classifications
 
-**Note**: Use asterisks (*) to wrap search terms in the displayName field. Direct text searches without the displayName: prefix may not work as expected.
+**Note**: Use asterisks (\*) to wrap search terms in the displayName field. Direct text searches without the displayName: prefix may not work as expected.
 
 ## Development
 
