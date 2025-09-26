@@ -49,7 +49,7 @@ export class SearchSupportCasesHandler extends BaseHandler {
       await this.getCurrentProjectIdWithLogging();
 
       // Send request using API client
-      const endpoint = `/v2beta/${parent}/cases`;
+      const endpoint = `/v2/${parent}/cases:search`;
       const pageSize = Math.max(1, Math.min(maxResults, 100)); // Handle negative values appropriately
       const queryParams: Record<string, string | number> = {
         pageSize,
